@@ -1,62 +1,62 @@
 [
   {
     "id": "cat1",
-    "name": "Vibrators",
-    "description": "Electric pleasure devices for women",
-    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    "targetGender": "women",
+    "name": "Online Reviews",
+    "description": "Professional positive review generation services",
+    "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "targetAudience": "businesses",
     "sortOrder": 1,
-    "productCount": 1,
+    "serviceCount": 3,
     "isActive": true,
-    "createdAt": "2025-08-19T13:01:12.762Z",
-    "updatedAt": "2025-08-19T13:01:12.762Z"
+    "createdAt": "2025-01-06T13:01:12.762Z",
+    "updatedAt": "2025-01-06T13:01:12.762Z"
   },
   {
     "id": "cat2",
-    "name": "Dildos",
-    "description": "Non-electric pleasure devices",
-    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    "targetGender": "women",
+    "name": "Reputation Management",
+    "description": "Comprehensive online reputation repair and monitoring",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "targetAudience": "businesses",
     "sortOrder": 2,
-    "productCount": 0,
+    "serviceCount": 2,
     "isActive": true,
-    "createdAt": "2025-08-19T13:01:12.762Z",
-    "updatedAt": "2025-08-19T13:01:12.762Z"
+    "createdAt": "2025-01-06T13:01:12.762Z",
+    "updatedAt": "2025-01-06T13:01:12.762Z"
   },
   {
     "id": "cat3",
-    "name": "Men's Toys",
-    "description": "Pleasure devices designed for men",
-    "image": "https://images.unsplash.com/photo-1616486334851-f8b8742f1b1c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    "targetGender": "men",
+    "name": "Local SEO",
+    "description": "Local search engine optimization services",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "targetAudience": "local-businesses",
     "sortOrder": 3,
-    "productCount": 1,
+    "serviceCount": 2,
     "isActive": true,
-    "createdAt": "2025-08-19T13:01:12.762Z",
-    "updatedAt": "2025-08-19T13:01:12.762Z"
+    "createdAt": "2025-01-06T13:01:12.762Z",
+    "updatedAt": "2025-01-06T13:01:12.762Z"
   },
   {
     "id": "cat4",
-    "name": "Couples Toys",
-    "description": "Devices designed for couples",
-    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    "targetGender": "couples",
+    "name": "Directory Reviews",
+    "description": "Business directory listing and review management",
+    "image": "https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "targetAudience": "businesses",
     "sortOrder": 4,
-    "productCount": 0,
+    "serviceCount": 1,
     "isActive": true,
-    "createdAt": "2025-08-19T13:01:12.762Z",
-    "updatedAt": "2025-08-19T13:01:12.762Z"
+    "createdAt": "2025-01-06T13:01:12.762Z",
+    "updatedAt": "2025-01-06T13:01:12.762Z"
   },
   {
     "id": "cat5",
-    "name": "Bondage",
-    "description": "Restraints and BDSM equipment",
-    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    "targetGender": "couples",
+    "name": "Review Monitoring",
+    "description": "24/7 review monitoring and alert services",
+    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "targetAudience": "businesses",
     "sortOrder": 5,
-    "productCount": 1,
+    "serviceCount": 1,
     "isActive": true,
-    "createdAt": "2025-08-19T13:01:12.762Z",
-    "updatedAt": "2025-08-19T13:01:12.762Z"
+    "createdAt": "2025-01-06T13:01:12.762Z",
+    "updatedAt": "2025-01-06T13:01:12.762Z"
   }
 ]

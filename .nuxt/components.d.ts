@@ -12,7 +12,17 @@ type HydrationStrategies = {
 }
 type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }>)
 interface _GlobalComponents {
-      'UAccordion': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']
+      'AppFooter': typeof import("../components/AppFooter.vue")['default']
+    'AppHeader': typeof import("../components/AppHeader.vue")['default']
+    'CTASection': typeof import("../components/CTASection.vue")['default']
+    'ContactForm': typeof import("../components/ContactForm.vue")['default']
+    'FAQItem': typeof import("../components/FAQItem.vue")['default']
+    'HeroSection': typeof import("../components/HeroSection.vue")['default']
+    'PricingCard': typeof import("../components/PricingCard.vue")['default']
+    'ServiceCard': typeof import("../components/ServiceCard.vue")['default']
+    'StatsCard': typeof import("../components/StatsCard.vue")['default']
+    'TestimonialCard': typeof import("../components/TestimonialCard.vue")['default']
+    'UAccordion': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']
     'UAlert': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']
     'UApp': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']
     'UAvatar': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Avatar.vue")['default']
@@ -104,7 +114,17 @@ interface _GlobalComponents {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
-      'LazyUAccordion': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']>
+      'LazyAppFooter': LazyComponent<typeof import("../components/AppFooter.vue")['default']>
+    'LazyAppHeader': LazyComponent<typeof import("../components/AppHeader.vue")['default']>
+    'LazyCTASection': LazyComponent<typeof import("../components/CTASection.vue")['default']>
+    'LazyContactForm': LazyComponent<typeof import("../components/ContactForm.vue")['default']>
+    'LazyFAQItem': LazyComponent<typeof import("../components/FAQItem.vue")['default']>
+    'LazyHeroSection': LazyComponent<typeof import("../components/HeroSection.vue")['default']>
+    'LazyPricingCard': LazyComponent<typeof import("../components/PricingCard.vue")['default']>
+    'LazyServiceCard': LazyComponent<typeof import("../components/ServiceCard.vue")['default']>
+    'LazyStatsCard': LazyComponent<typeof import("../components/StatsCard.vue")['default']>
+    'LazyTestimonialCard': LazyComponent<typeof import("../components/TestimonialCard.vue")['default']>
+    'LazyUAccordion': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']>
     'LazyUAlert': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']>
     'LazyUApp': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']>
     'LazyUAvatar': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Avatar.vue")['default']>
@@ -202,6 +222,16 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
+export const AppFooter: typeof import("../components/AppFooter.vue")['default']
+export const AppHeader: typeof import("../components/AppHeader.vue")['default']
+export const CTASection: typeof import("../components/CTASection.vue")['default']
+export const ContactForm: typeof import("../components/ContactForm.vue")['default']
+export const FAQItem: typeof import("../components/FAQItem.vue")['default']
+export const HeroSection: typeof import("../components/HeroSection.vue")['default']
+export const PricingCard: typeof import("../components/PricingCard.vue")['default']
+export const ServiceCard: typeof import("../components/ServiceCard.vue")['default']
+export const StatsCard: typeof import("../components/StatsCard.vue")['default']
+export const TestimonialCard: typeof import("../components/TestimonialCard.vue")['default']
 export const UAccordion: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']
 export const UAlert: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']
 export const UApp: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']
@@ -294,6 +324,16 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
+export const LazyAppFooter: LazyComponent<typeof import("../components/AppFooter.vue")['default']>
+export const LazyAppHeader: LazyComponent<typeof import("../components/AppHeader.vue")['default']>
+export const LazyCTASection: LazyComponent<typeof import("../components/CTASection.vue")['default']>
+export const LazyContactForm: LazyComponent<typeof import("../components/ContactForm.vue")['default']>
+export const LazyFAQItem: LazyComponent<typeof import("../components/FAQItem.vue")['default']>
+export const LazyHeroSection: LazyComponent<typeof import("../components/HeroSection.vue")['default']>
+export const LazyPricingCard: LazyComponent<typeof import("../components/PricingCard.vue")['default']>
+export const LazyServiceCard: LazyComponent<typeof import("../components/ServiceCard.vue")['default']>
+export const LazyStatsCard: LazyComponent<typeof import("../components/StatsCard.vue")['default']>
+export const LazyTestimonialCard: LazyComponent<typeof import("../components/TestimonialCard.vue")['default']>
 export const LazyUAccordion: LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']>
 export const LazyUAlert: LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']>
 export const LazyUApp: LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']>

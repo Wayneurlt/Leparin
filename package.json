@@ -1,5 +1,6 @@
 {
-  "name": "nuxt-app",
+  "name": "repupro",
+  "description": "Professional Online Reputation Management Services",
   "private": true,
   "type": "module",
   "scripts": {

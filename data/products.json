@@ -1,71 +1,117 @@
 [
   {
     "id": "prod1",
-    "name": "Sensual Rose Vibrator",
-    "description": "Whisper-quiet luxury vibrator with 10 intensity levels for personalized pleasure.",
-    "price": 89.99,
-    "image": "https://images.unsplash.com/photo-1721993728580-06bdb5db9a16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9zZSUyMHZpYnJhdG9yfGVufDB8fDB8fHww",
-    "category": "Vibrators",
+    "name": "Basic Review Package",
+    "description": "Get 10 positive reviews across major platforms including Google, Yelp, and Facebook.",
+    "price": 299.99,
+    "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "category": "Online Reviews",
     "categoryId": "cat1",
     "features": [
-      "10 intensity levels",
-      "Whisper-quiet",
-      "Waterproof",
-      "USB rechargeable"
+      "10 positive reviews",
+      "Google, Yelp, Facebook",
+      "Professional writing",
+      "30-day delivery"
     ],
     "gallery": [
-      "https://images.unsplash.com/photo-1721993728580-06bdb5db9a16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9zZSUyMHZpYnJhdG9yfGVufDB8fDB8fHww"
+      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     ],
-    "targetGender": "women",
+    "targetAudience": "small-businesses",
     "inStock": true,
     "isActive": true,
-    "createdAt": "2025-08-19T13:00:53.943Z",
-    "updatedAt": "2025-08-19T13:00:53.943Z"
+    "createdAt": "2025-01-06T13:00:53.943Z",
+    "updatedAt": "2025-01-06T13:00:53.943Z"
   },
   {
     "id": "prod2",
-    "name": "Couples' Bondage Set",
-    "description": "Premium silk restraints and blindfold for sensual exploration between partners.",
-    "price": 129.99,
-    "image": "https://eroskenya.com/storage/2020/05/bdsm-3-510x510.jpg",
-    "category": "Bondage",
-    "categoryId": "cat5",
+    "name": "Premium Reputation Management",
+    "description": "Comprehensive reputation repair and monitoring service with monthly reports.",
+    "price": 599.99,
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "category": "Reputation Management",
+    "categoryId": "cat2",
     "features": [
-      "Silk material",
-      "Adjustable straps",
-      "Blindfold included",
-      "Safe for beginners"
+      "Reputation analysis",
+      "Negative review removal",
+      "Monthly monitoring",
+      "Crisis management"
     ],
     "gallery": [
-      "https://eroskenya.com/storage/2020/05/bdsm-3-510x510.jpg"
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     ],
-    "targetGender": "couples",
+    "targetAudience": "medium-businesses",
     "inStock": true,
     "isActive": true,
-    "createdAt": "2025-08-19T13:00:53.943Z",
-    "updatedAt": "2025-08-19T13:00:53.943Z"
+    "createdAt": "2025-01-06T13:00:53.943Z",
+    "updatedAt": "2025-01-06T13:00:53.943Z"
   },
   {
     "id": "prod3",
-    "name": "Male Masturbator",
-    "description": "Realistic male masturbator with textured interior for enhanced pleasure.",
-    "price": 39.99,
-    "image": "https://images.unsplash.com/photo-1616486334851-f8b8742f1b1c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    "category": "Men's Toys",
+    "name": "Local SEO Optimization",
+    "description": "Complete local SEO package including Google My Business optimization and local citations.",
+    "price": 399.99,
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "category": "Local SEO",
     "categoryId": "cat3",
     "features": [
-      "Textured interior",
-      "Easy to clean",
-      "Discreet design",
-      "Body-safe material"
+      "Google My Business setup",
+      "Local citations",
+      "Review management",
+      "Local keyword optimization"
     ],
     "gallery": [
-      "https://images.unsplash.com/photo-1616486334851-f8b8742f1b1c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     ],
-    "targetGender": "men",
+    "targetAudience": "local-businesses",
     "inStock": true,
     "isActive": true,
-    "createdAt": "2025-08-19T13:00:53.943Z",
-    "updatedAt": "2025-08-19T13:00:53.943Z"
+    "createdAt": "2025-01-06T13:00:53.943Z",
+    "updatedAt": "2025-01-06T13:00:53.943Z"
+  },
+  {
+    "id": "prod4",
+    "name": "Directory Review Package",
+    "description": "Get listed and reviewed on 50+ major business directories and review platforms.",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "category": "Directory Reviews",
+    "categoryId": "cat4",
+    "features": [
+      "50+ directory listings",
+      "Professional profiles",
+      "Review generation",
+      "Ongoing maintenance"
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    ],
+    "targetAudience": "businesses",
+    "inStock": true,
+    "isActive": true,
+    "createdAt": "2025-01-06T13:00:53.943Z",
+    "updatedAt": "2025-01-06T13:00:53.943Z"
+  },
+  {
+    "id": "prod5",
+    "name": "Review Monitoring Service",
+    "description": "24/7 monitoring of all your business reviews with instant alerts and response management.",
+    "price": 149.99,
+    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "category": "Review Monitoring",
+    "categoryId": "cat5",
+    "features": [
+      "24/7 monitoring",
+      "Instant alerts",
+      "Response management",
+      "Analytics dashboard"
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    ],
+    "targetAudience": "businesses",
+    "inStock": true,
+    "isActive": true,
+    "createdAt": "2025-01-06T13:00:53.943Z",
+    "updatedAt": "2025-01-06T13:00:53.943Z"
   }
 ]
