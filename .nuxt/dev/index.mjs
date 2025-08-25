@@ -3,42 +3,42 @@ import { Server } from 'node:http';
 import { resolve, dirname, join } from 'node:path';
 import crypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
-import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, getResponseStatus, createError, useSession, getQuery as getQuery$1, readBody, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getRouterParam, getResponseStatusText } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/h3/dist/index.mjs';
-import { escapeHtml } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/@vue/shared/dist/shared.cjs.js';
+import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, getResponseStatus, createError, useSession, getQuery as getQuery$1, readBody, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getRouterParam, getResponseStatusText } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/h3/dist/index.mjs';
+import { escapeHtml } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/@vue/shared/dist/shared.cjs.js';
 import { readFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
-import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, joinRelativeURL } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/ufo/dist/index.mjs';
-import { renderToString } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/vue/server-renderer/index.mjs';
-import { klona } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/klona/dist/index.mjs';
-import defu, { defuFn, defu as defu$1 } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/defu/dist/defu.mjs';
-import destr, { destr as destr$1 } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/destr/dist/index.mjs';
-import { snakeCase } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/scule/dist/index.mjs';
-import { createHead as createHead$1, propsToString, renderSSRHead } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/unhead/dist/server.mjs';
-import { stringify, uneval } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/devalue/index.js';
-import { isVNode, toValue, isRef } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/vue/index.mjs';
-import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/unhead/dist/plugins.mjs';
-import { createHooks } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/hookable/dist/index.mjs';
-import { createFetch, Headers as Headers$1 } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/ofetch/dist/node.mjs';
-import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/node-mock-http/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/unstorage/drivers/fs.mjs';
-import { digest, hash as hash$1 } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/ohash/dist/index.mjs';
-import { toRouteMatcher, createRouter } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/radix3/dist/index.mjs';
+import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, joinRelativeURL } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/ufo/dist/index.mjs';
+import { renderToString } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/vue/server-renderer/index.mjs';
+import { klona } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/klona/dist/index.mjs';
+import defu, { defuFn, defu as defu$1 } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/defu/dist/defu.mjs';
+import destr, { destr as destr$1 } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/destr/dist/index.mjs';
+import { snakeCase } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/scule/dist/index.mjs';
+import { createHead as createHead$1, propsToString, renderSSRHead } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/unhead/dist/server.mjs';
+import { stringify, uneval } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/devalue/index.js';
+import { isVNode, toValue, isRef } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/vue/index.mjs';
+import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/unhead/dist/plugins.mjs';
+import { createHooks } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/hookable/dist/index.mjs';
+import { createFetch, Headers as Headers$1 } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/ofetch/dist/node.mjs';
+import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/node-mock-http/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/unstorage/drivers/fs.mjs';
+import { digest, hash as hash$1 } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/ohash/dist/index.mjs';
+import { toRouteMatcher, createRouter } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/radix3/dist/index.mjs';
 import { readFile } from 'node:fs/promises';
-import consola, { consola as consola$1 } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/consola/dist/index.mjs';
-import { ErrorParser } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/youch-core/build/index.js';
-import { Youch } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/nitropack/node_modules/youch/build/index.js';
-import { SourceMapConsumer } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/source-map/source-map.js';
+import consola, { consola as consola$1 } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/consola/dist/index.mjs';
+import { ErrorParser } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/youch-core/build/index.js';
+import { Youch } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/nitropack/node_modules/youch/build/index.js';
+import { SourceMapConsumer } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/source-map/source-map.js';
 import { AsyncLocalStorage } from 'node:async_hooks';
-import { getContext } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/unctx/dist/index.mjs';
-import { captureRawStackTrace, parseRawStackTrace } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/errx/dist/index.js';
-import morgan from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/morgan/index.js';
-import { basename } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/pathe/dist/index.mjs';
-import { getIcons } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/@iconify/utils/lib/index.mjs';
-import { collections } from 'file://C:/Users/wayne/Desktop/Fantasy-World/.nuxt/nuxt-icon-server-bundle.mjs';
-import { walkResolver } from 'file://C:/Users/wayne/Desktop/Fantasy-World/node_modules/unhead/dist/utils.mjs';
+import { getContext } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/unctx/dist/index.mjs';
+import { captureRawStackTrace, parseRawStackTrace } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/errx/dist/index.js';
+import morgan from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/morgan/index.js';
+import { basename } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/pathe/dist/index.mjs';
+import { getIcons } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/@iconify/utils/lib/index.mjs';
+import { collections } from 'file://C:/Users/wayne/Desktop/Leparin/.nuxt/nuxt-icon-server-bundle.mjs';
+import { walkResolver } from 'file://C:/Users/wayne/Desktop/Leparin/node_modules/unhead/dist/utils.mjs';
 
-const serverAssets = [{"baseName":"server","dir":"C:/Users/wayne/Desktop/Fantasy-World/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"C:/Users/wayne/Desktop/Leparin/server/assets"}];
 
 const assets = createStorage();
 
@@ -50,11 +50,11 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:/Users/wayne/Desktop/Fantasy-World","watchOptions":{"ignored":[null]}}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:/Users/wayne/Desktop/Fantasy-World/server","watchOptions":{"ignored":[null]}}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:/Users/wayne/Desktop/Fantasy-World/.nuxt"}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:/Users/wayne/Desktop/Fantasy-World/.nuxt/cache"}));
-storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"C:/Users/wayne/Desktop/Fantasy-World/.data/kv"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:/Users/wayne/Desktop/Leparin","watchOptions":{"ignored":[null]}}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:/Users/wayne/Desktop/Leparin/server","watchOptions":{"ignored":[null]}}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:/Users/wayne/Desktop/Leparin/.nuxt"}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:/Users/wayne/Desktop/Leparin/.nuxt/cache"}));
+storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"C:/Users/wayne/Desktop/Leparin/.data/kv"}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -1539,13 +1539,13 @@ if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
 window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
 `;
 
-const _XWYFOrr2qR7FbDmitpcYjLmPkFv6_PsVgZygn96QD4 = (function(nitro) {
+const _ot0DEHcHN1qRs6HbaXdpFL1_pVcWPjMOhs_OenDFYE = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script$1}<\/script>`);
   });
 });
 
-const rootDir = "C:/Users/wayne/Desktop/Fantasy-World";
+const rootDir = "C:/Users/wayne/Desktop/Leparin";
 
 const appHead = {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width,initial-scale=1"},{"name":"description","content":"Premium adult toys and pleasure products. Discreet shipping, body-safe materials. WhatsApp: +254 702 943 693"},{"name":"keywords","content":"adult toys, pleasure products, vibrators, dildos, couples toys, Kenya"},{"name":"author","content":"FantasyWorld"},{"property":"og:title","content":"FantasyWorld - Premium Adult Toys & Pleasure Products"},{"property":"og:description","content":"Premium adult toys and pleasure products. Discreet shipping, body-safe materials."},{"property":"og:type","content":"website"},{"name":"twitter:card","content":"summary_large_image"},{"name":"twitter:title","content":"FantasyWorld - Premium Adult Toys & Pleasure Products"},{"name":"twitter:description","content":"Premium adult toys and pleasure products. Discreet shipping, body-safe materials."}],"link":[],"style":[],"script":[],"noscript":[],"title":"FantasyWorld - Premium Adult Toys & Pleasure Products"};
 
@@ -1564,7 +1564,7 @@ const devReducers = {
   URL: (data) => data instanceof URL ? data.toString() : void 0
 };
 const asyncContext = getContext("nuxt-dev", { asyncContext: true, AsyncLocalStorage });
-const _xwIMOZyAvY1Hx4Hl3vK3rW5Jgist7l4S2wQ1uJNPd3c = (nitroApp) => {
+const _LcfEsOi8yZvumzsgKgfGZTZOW4jFq7FPoabaoWLcWA = (nitroApp) => {
   const handler = nitroApp.h3App.handler;
   nitroApp.h3App.handler = (event) => {
     return asyncContext.callAsync({ logs: [], event }, () => handler(event));
@@ -1633,7 +1633,7 @@ function onConsoleLog(callback) {
   consola$1.wrapConsole();
 }
 
-const _4dUWP40ghVXm8ooPmASnvqBBqKwQHmrcIxX4LZLBEYg = defineNitroPlugin((nitroApp) => {
+const _by7fSoqtLIsjXOJRr2qpRP0JruPYHbDKS2gEtglEs = defineNitroPlugin((nitroApp) => {
   if (process.env.NUXT_OAUTH_FACEBOOK_CLIENT_ID && process.env.NUXT_OAUTH_FACEBOOK_CLIENT_SECRET || process.env.NUXT_OAUTH_INSTAGRAM_CLIENT_ID && process.env.NUXT_OAUTH_INSTAGRAM_CLIENT_SECRET) {
     nitroApp.hooks.hook("render:html", (html) => {
       html.head.unshift(`
@@ -1651,20 +1651,20 @@ const _4dUWP40ghVXm8ooPmASnvqBBqKwQHmrcIxX4LZLBEYg = defineNitroPlugin((nitroApp
 
 const script = "\"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"system\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}function u(){if(t.matchMedia&&f(\"\").media!==\"not all\"){for(const o of c)if(f(\":\"+o).matches)return o}return\"light\"}})();function getStorageValue(t,e){switch(t){case\"localStorage\":return window.localStorage.getItem(e);case\"sessionStorage\":return window.sessionStorage.getItem(e);case\"cookie\":return getCookie(e);default:return null}}function getCookie(t){const c=(\"; \"+window.document.cookie).split(\"; \"+t+\"=\");if(c.length===2)return c.pop()?.split(\";\").shift()}";
 
-const _TMj7BZxupELjT7rBmYHrugXuQwymaY2mo1vIB9muFA = (function(nitro) {
+const _o8tImE62xltnslTloTWbM1ldHLRp5Bz9bP9euo7FcwY = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
 });
 
 const plugins = [
-  _XWYFOrr2qR7FbDmitpcYjLmPkFv6_PsVgZygn96QD4,
-_xwIMOZyAvY1Hx4Hl3vK3rW5Jgist7l4S2wQ1uJNPd3c,
-_4dUWP40ghVXm8ooPmASnvqBBqKwQHmrcIxX4LZLBEYg,
-_TMj7BZxupELjT7rBmYHrugXuQwymaY2mo1vIB9muFA
+  _ot0DEHcHN1qRs6HbaXdpFL1_pVcWPjMOhs_OenDFYE,
+_LcfEsOi8yZvumzsgKgfGZTZOW4jFq7FPoabaoWLcWA,
+_by7fSoqtLIsjXOJRr2qpRP0JruPYHbDKS2gEtglEs,
+_o8tImE62xltnslTloTWbM1ldHLRp5Bz9bP9euo7FcwY
 ];
 
-const _MYIH4u = defineEventHandler((event) => {
+const _MCOHrH = defineEventHandler((event) => {
   var logger = morgan("tiny");
   logger(event.node.req, event.node.res, function() {
   });
@@ -1789,7 +1789,7 @@ function _useSession(event, config = {}) {
 
 const warnOnceSet = /* @__PURE__ */ new Set();
 const DEFAULT_ENDPOINT = "https://api.iconify.design";
-const _Yy3wLP = defineCachedEventHandler(async (event) => {
+const _1Y7nNF = defineCachedEventHandler(async (event) => {
   const url = getRequestURL(event);
   if (!url)
     return createError({ status: 400, message: "Invalid icon request" });
@@ -1847,12 +1847,12 @@ const _Yy3wLP = defineCachedEventHandler(async (event) => {
   // 1 week
 });
 
-const _HV8sPX = eventHandler(async (event) => {
+const _t_Wi7U = eventHandler(async (event) => {
   await clearUserSession(event);
   return { loggedOut: true };
 });
 
-const _kJ2raq = eventHandler(async (event) => {
+const _fz_v6E = eventHandler(async (event) => {
   const session = await getUserSession(event);
   if (Object.keys(session).length > 0) {
     await sessionHooks.callHookParallel("fetch", session, event);
@@ -1920,8 +1920,8 @@ function setSSRError(ssrContext, error) {
 
 const APP_ROOT_OPEN_TAG = `<${appRootTag}${propsToString(appRootAttrs)}>`;
 const APP_ROOT_CLOSE_TAG = `</${appRootTag}>`;
-const getServerEntry = () => import('file://C:/Users/wayne/Desktop/Fantasy-World/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
-const getClientManifest = () => import('file://C:/Users/wayne/Desktop/Fantasy-World/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getServerEntry = () => import('file://C:/Users/wayne/Desktop/Leparin/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getClientManifest = () => import('file://C:/Users/wayne/Desktop/Leparin/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
   if (!manifest) {
@@ -2167,35 +2167,35 @@ async function getIslandContext(event) {
   return ctx;
 }
 
-const _lazy_PlfG25 = () => Promise.resolve().then(function () { return categories_get$3; });
-const _lazy_HfHhDT = () => Promise.resolve().then(function () { return categories_post$1; });
-const _lazy_W9BbO4 = () => Promise.resolve().then(function () { return products_get$3; });
-const _lazy_2TzSmc = () => Promise.resolve().then(function () { return products_post$3; });
-const _lazy_jJuHgt = () => Promise.resolve().then(function () { return categories_get$1; });
-const _lazy_OTG1So = () => Promise.resolve().then(function () { return products_get$1; });
-const _lazy_h0bvNO = () => Promise.resolve().then(function () { return products_post$1; });
-const _lazy_ydqB20 = () => Promise.resolve().then(function () { return _id__delete$1; });
-const _lazy_0CeY2S = () => Promise.resolve().then(function () { return _id__put$1; });
-const _lazy_glFcst = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_LnJZCU = () => Promise.resolve().then(function () { return categories_get$3; });
+const _lazy_Z1UxRJ = () => Promise.resolve().then(function () { return categories_post$1; });
+const _lazy_6CSYqw = () => Promise.resolve().then(function () { return products_get$3; });
+const _lazy_Xy2ZkA = () => Promise.resolve().then(function () { return products_post$3; });
+const _lazy_K03z7D = () => Promise.resolve().then(function () { return categories_get$1; });
+const _lazy_K8rf_9 = () => Promise.resolve().then(function () { return products_get$1; });
+const _lazy_KWMLyC = () => Promise.resolve().then(function () { return products_post$1; });
+const _lazy_h8GrMa = () => Promise.resolve().then(function () { return _id__delete$1; });
+const _lazy_bJHIAx = () => Promise.resolve().then(function () { return _id__put$1; });
+const _lazy_1Agj20 = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '', handler: _MYIH4u, lazy: false, middleware: true, method: undefined },
-  { route: '/api/admin/categories', handler: _lazy_PlfG25, lazy: true, middleware: false, method: "get" },
-  { route: '/api/admin/categories', handler: _lazy_HfHhDT, lazy: true, middleware: false, method: "post" },
-  { route: '/api/admin/products', handler: _lazy_W9BbO4, lazy: true, middleware: false, method: "get" },
-  { route: '/api/admin/products', handler: _lazy_2TzSmc, lazy: true, middleware: false, method: "post" },
-  { route: '/api/categories', handler: _lazy_jJuHgt, lazy: true, middleware: false, method: "get" },
-  { route: '/api/products', handler: _lazy_OTG1So, lazy: true, middleware: false, method: "get" },
-  { route: '/api/products', handler: _lazy_h0bvNO, lazy: true, middleware: false, method: "post" },
-  { route: '/api/products/:id', handler: _lazy_ydqB20, lazy: true, middleware: false, method: "delete" },
-  { route: '/api/products/:id', handler: _lazy_0CeY2S, lazy: true, middleware: false, method: "put" },
-  { route: '/__nuxt_error', handler: _lazy_glFcst, lazy: true, middleware: false, method: undefined },
-  { route: '/api/_nuxt_icon/:collection', handler: _Yy3wLP, lazy: false, middleware: false, method: undefined },
-  { route: '/api/_auth/session', handler: _HV8sPX, lazy: false, middleware: false, method: "delete" },
-  { route: '/api/_auth/session', handler: _kJ2raq, lazy: false, middleware: false, method: "get" },
+  { route: '', handler: _MCOHrH, lazy: false, middleware: true, method: undefined },
+  { route: '/api/admin/categories', handler: _lazy_LnJZCU, lazy: true, middleware: false, method: "get" },
+  { route: '/api/admin/categories', handler: _lazy_Z1UxRJ, lazy: true, middleware: false, method: "post" },
+  { route: '/api/admin/products', handler: _lazy_6CSYqw, lazy: true, middleware: false, method: "get" },
+  { route: '/api/admin/products', handler: _lazy_Xy2ZkA, lazy: true, middleware: false, method: "post" },
+  { route: '/api/categories', handler: _lazy_K03z7D, lazy: true, middleware: false, method: "get" },
+  { route: '/api/products', handler: _lazy_K8rf_9, lazy: true, middleware: false, method: "get" },
+  { route: '/api/products', handler: _lazy_KWMLyC, lazy: true, middleware: false, method: "post" },
+  { route: '/api/products/:id', handler: _lazy_h8GrMa, lazy: true, middleware: false, method: "delete" },
+  { route: '/api/products/:id', handler: _lazy_bJHIAx, lazy: true, middleware: false, method: "put" },
+  { route: '/__nuxt_error', handler: _lazy_1Agj20, lazy: true, middleware: false, method: undefined },
+  { route: '/api/_nuxt_icon/:collection', handler: _1Y7nNF, lazy: false, middleware: false, method: undefined },
+  { route: '/api/_auth/session', handler: _t_Wi7U, lazy: false, middleware: false, method: "delete" },
+  { route: '/api/_auth/session', handler: _fz_v6E, lazy: false, middleware: false, method: "get" },
   { route: '/__nuxt_island/**', handler: _SxA8c9, lazy: false, middleware: false, method: undefined },
-  { route: '/_fonts/**', handler: _lazy_glFcst, lazy: true, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_glFcst, lazy: true, middleware: false, method: undefined }
+  { route: '/_fonts/**', handler: _lazy_1Agj20, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_1Agj20, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {

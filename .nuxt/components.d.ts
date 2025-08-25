@@ -12,13 +12,7 @@ type HydrationStrategies = {
 }
 type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }>)
 interface _GlobalComponents {
-      'Navbar': typeof import("../components/Navbar.vue")['default']
-    'AdminCategoryModal': typeof import("../components/admin/CategoryModal.vue")['default']
-    'AdminOrderModal': typeof import("../components/admin/OrderModal.vue")['default']
-    'AdminProductModal': typeof import("../components/admin/ProductModal.vue")['default']
-    'Footer': typeof import("../components/footer.vue")['default']
-    'ProductCard': typeof import("../components/productCard.vue")['default']
-    'UAccordion': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']
+      'UAccordion': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']
     'UAlert': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']
     'UApp': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']
     'UAvatar': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Avatar.vue")['default']
@@ -110,13 +104,7 @@ interface _GlobalComponents {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
-      'LazyNavbar': LazyComponent<typeof import("../components/Navbar.vue")['default']>
-    'LazyAdminCategoryModal': LazyComponent<typeof import("../components/admin/CategoryModal.vue")['default']>
-    'LazyAdminOrderModal': LazyComponent<typeof import("../components/admin/OrderModal.vue")['default']>
-    'LazyAdminProductModal': LazyComponent<typeof import("../components/admin/ProductModal.vue")['default']>
-    'LazyFooter': LazyComponent<typeof import("../components/footer.vue")['default']>
-    'LazyProductCard': LazyComponent<typeof import("../components/productCard.vue")['default']>
-    'LazyUAccordion': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']>
+      'LazyUAccordion': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']>
     'LazyUAlert': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']>
     'LazyUApp': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']>
     'LazyUAvatar': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Avatar.vue")['default']>
@@ -214,12 +202,6 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
-export const Navbar: typeof import("../components/Navbar.vue")['default']
-export const AdminCategoryModal: typeof import("../components/admin/CategoryModal.vue")['default']
-export const AdminOrderModal: typeof import("../components/admin/OrderModal.vue")['default']
-export const AdminProductModal: typeof import("../components/admin/ProductModal.vue")['default']
-export const Footer: typeof import("../components/footer.vue")['default']
-export const ProductCard: typeof import("../components/productCard.vue")['default']
 export const UAccordion: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']
 export const UAlert: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']
 export const UApp: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']
@@ -312,12 +294,6 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
-export const LazyNavbar: LazyComponent<typeof import("../components/Navbar.vue")['default']>
-export const LazyAdminCategoryModal: LazyComponent<typeof import("../components/admin/CategoryModal.vue")['default']>
-export const LazyAdminOrderModal: LazyComponent<typeof import("../components/admin/OrderModal.vue")['default']>
-export const LazyAdminProductModal: LazyComponent<typeof import("../components/admin/ProductModal.vue")['default']>
-export const LazyFooter: LazyComponent<typeof import("../components/footer.vue")['default']>
-export const LazyProductCard: LazyComponent<typeof import("../components/productCard.vue")['default']>
 export const LazyUAccordion: LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']>
 export const LazyUAlert: LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']>
 export const LazyUApp: LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']>
