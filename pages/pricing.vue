@@ -1,9 +1,11 @@
 <template>
   <div>
+    <AppHeader />
+    
     <!-- Hero Section -->
     <HeroSection 
-      title="Transparent Pricing"
-      description="Choose the perfect plan for your business. All plans include our 30-day money-back guarantee."
+      title="Pricing Plans"
+      description="Choose the perfect reputation management package for your business. All plans include our 30-day satisfaction guarantee."
     />
 
     <!-- Pricing Plans -->

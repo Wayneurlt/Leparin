@@ -1,9 +1,11 @@
 <template>
   <div>
+    <AppHeader />
+    
     <!-- Hero Section -->
     <HeroSection 
-      title="Reputation Management Resources"
-      description="Expert insights, tips, and strategies to help you build and protect your business reputation"
+      title="Blog & Resources"
+      description="Stay updated with the latest reputation management strategies, industry insights, and success stories from our team of experts."
     />
 
     <!-- Featured Article -->

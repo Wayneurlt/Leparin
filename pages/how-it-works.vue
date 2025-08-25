@@ -1,9 +1,11 @@
 <template>
   <div>
+    <AppHeader />
+    
     <!-- Hero Section -->
     <HeroSection 
-      title="How RepuPro Works"
-      description="Our simple 3-step process to transform your online reputation and boost your business"
+      title="How It Works"
+      description="Our simple 3-step process makes it easy to improve your online reputation. See how we can help transform your business's digital presence."
     />
 
     <!-- Process Steps -->

@@ -1,9 +1,11 @@
 <template>
   <div>
+    <AppHeader />
+    
     <!-- Hero Section -->
     <HeroSection 
       title="Secure Payment"
-      description="Complete your purchase securely with our trusted payment partners"
+      description="Complete your purchase securely. We accept all major credit cards and PayPal. Your payment information is protected with bank-level security."
     />
 
     <!-- Payment Section -->

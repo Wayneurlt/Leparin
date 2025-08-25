@@ -1,9 +1,11 @@
 <template>
   <div>
+    <AppHeader />
+    
     <!-- Hero Section -->
     <HeroSection 
       title="Frequently Asked Questions"
-      description="Find answers to common questions about our reputation management services"
+      description="Find answers to common questions about our reputation management services. Can't find what you're looking for? Contact us directly."
     />
 
     <!-- FAQ Section -->

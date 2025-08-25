@@ -1,5 +1,7 @@
 <template>
   <div>
+    <AppHeader />
+    
     <!-- Hero Section -->
     <HeroSection 
       title="About RepuPro"

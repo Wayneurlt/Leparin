@@ -1,9 +1,11 @@
 <template>
   <div>
+    <AppHeader />
+    
     <!-- Hero Section -->
     <HeroSection 
       title="Contact Us"
-      description="Ready to improve your online reputation? Get in touch with our team today for a free consultation."
+      description="Ready to improve your online reputation? Get in touch with our team of experts. We're here to help you protect and enhance your business's online presence."
     />
 
     <!-- Contact Section -->

@@ -1,9 +1,11 @@
 <template>
   <div>
+    <AppHeader />
+    
     <!-- Hero Section -->
     <HeroSection 
-      title="Client Success Stories"
-      description="See how we've helped businesses transform their online reputation and achieve remarkable results"
+      title="Client Testimonials"
+      description="See what our clients say about our reputation management services. Real results from real businesses."
     />
 
     <!-- Stats Section -->

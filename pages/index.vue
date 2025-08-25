@@ -1,5 +1,7 @@
 <template>
   <div>
+    <AppHeader />
+    
     <!-- Hero Section -->
     <section
       class="py-16 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900"
