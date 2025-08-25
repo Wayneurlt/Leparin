@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cat1",
+    "name": "Vibrators",
+    "description": "Electric pleasure devices for women",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "targetGender": "women",
+    "sortOrder": 1,
+    "productCount": 1,
+    "isActive": true,
+    "createdAt": "2025-08-19T13:01:12.762Z",
+    "updatedAt": "2025-08-19T13:01:12.762Z"
+  },
+  {
+    "id": "cat2",
+    "name": "Dildos",
+    "description": "Non-electric pleasure devices",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "targetGender": "women",
+    "sortOrder": 2,
+    "productCount": 0,
+    "isActive": true,
+    "createdAt": "2025-08-19T13:01:12.762Z",
+    "updatedAt": "2025-08-19T13:01:12.762Z"
+  },
+  {
+    "id": "cat3",
+    "name": "Men's Toys",
+    "description": "Pleasure devices designed for men",
+    "image": "https://images.unsplash.com/photo-1616486334851-f8b8742f1b1c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "targetGender": "men",
+    "sortOrder": 3,
+    "productCount": 1,
+    "isActive": true,
+    "createdAt": "2025-08-19T13:01:12.762Z",
+    "updatedAt": "2025-08-19T13:01:12.762Z"
+  },
+  {
+    "id": "cat4",
+    "name": "Couples Toys",
+    "description": "Devices designed for couples",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "targetGender": "couples",
+    "sortOrder": 4,
+    "productCount": 0,
+    "isActive": true,
+    "createdAt": "2025-08-19T13:01:12.762Z",
+    "updatedAt": "2025-08-19T13:01:12.762Z"
+  },
+  {
+    "id": "cat5",
+    "name": "Bondage",
+    "description": "Restraints and BDSM equipment",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "targetGender": "couples",
+    "sortOrder": 5,
+    "productCount": 1,
+    "isActive": true,
+    "createdAt": "2025-08-19T13:01:12.762Z",
+    "updatedAt": "2025-08-19T13:01:12.762Z"
+  }
+]
