@@ -1,36 +1,57 @@
 <template>
   <div>
     <AppHeader />
-    
+
     <!-- Hero Section -->
     <section
       class="relative py-20 bg-gradient-to-br from-gray-50 via-blue-50/30 to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 overflow-hidden"
     >
       <!-- Background Pattern -->
       <div class="absolute inset-0 opacity-5">
-        <div class="absolute inset-0" style="background-image: radial-gradient(circle at 2px 2px, rgba(59, 130, 246, 0.3) 1px, transparent 0); background-size: 30px 30px;"></div>
+        <div
+          class="absolute inset-0"
+          style="
+            background-image: radial-gradient(
+              circle at 2px 2px,
+              rgba(59, 130, 246, 0.3) 1px,
+              transparent 0
+            );
+            background-size: 30px 30px;
+          "
+        ></div>
       </div>
-      
+
       <div class="container mx-auto px-6 relative z-10">
         <div class="flex flex-col lg:flex-row items-center">
           <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
-            <div class="inline-flex items-center px-4 py-2 bg-blue-100 dark:bg-blue-900/30 rounded-full text-blue-700 dark:text-blue-300 text-sm font-medium mb-6">
+            <div
+              class="inline-flex items-center px-4 py-2 bg-blue-100 dark:bg-blue-900/30 rounded-full text-blue-700 dark:text-blue-300 text-sm font-medium mb-6"
+            >
               <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
               </svg>
               Trusted by 500+ Businesses
             </div>
             <h1
               class="text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight"
             >
-              Protect & Enhance Your 
-              <span class="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              Protect & Enhance Your
+              <span
+                class="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+              >
                 Business Reputation
               </span>
             </h1>
-            <p class="text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-              Professional online reputation management services. Get positive reviews, 
-              improve your online presence, and build trust with customers. 12+ years of experience.
+            <p
+              class="text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed"
+            >
+              Professional online reputation management services. Get positive
+              reviews, improve your online presence, and build trust with
+              customers. 12+ years of experience.
             </p>
             <div
               class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
@@ -40,8 +61,18 @@
                 class="group relative inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 <span>Get Started Today</span>
-                <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                <svg
+                  class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 7l5 5m0 0l-5 5m5-5H6"
+                  />
                 </svg>
               </NuxtLink>
               <NuxtLink
@@ -54,9 +85,11 @@
           </div>
           <div class="lg:w-1/2">
             <div class="relative">
-              <div class="absolute -inset-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-20"></div>
+              <div
+                class="absolute -inset-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-20"
+              ></div>
               <img
-                src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                src="/assets/images/her.png"
                 alt="Online Reputation Management"
                 class="relative rounded-2xl shadow-2xl"
               />
@@ -74,15 +107,28 @@
             Trusted by Businesses Nationwide
           </h2>
           <p class="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Our proven track record speaks for itself - we've helped businesses improve their online reputation for over 12 years
+            Our proven track record speaks for itself - we've helped businesses
+            improve their online reputation for over 12 years
           </p>
         </div>
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="text-center group">
             <div class="relative inline-block mb-4">
-              <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
-                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              <div
+                class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:scale-105"
+              >
+                <svg
+                  class="w-8 h-8 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                  />
                 </svg>
               </div>
             </div>
@@ -96,9 +142,21 @@
 
           <div class="text-center group">
             <div class="relative inline-block mb-4">
-              <div class="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
-                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              <div
+                class="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:scale-105"
+              >
+                <svg
+                  class="w-8 h-8 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
                 </svg>
               </div>
             </div>
@@ -112,9 +170,21 @@
 
           <div class="text-center group">
             <div class="relative inline-block mb-4">
-              <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
-                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+              <div
+                class="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:scale-105"
+              >
+                <svg
+                  class="w-8 h-8 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
                 </svg>
               </div>
             </div>
@@ -128,9 +198,21 @@
 
           <div class="text-center group">
             <div class="relative inline-block mb-4">
-              <div class="w-20 h-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:scale-105">
-                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+              <div
+                class="w-20 h-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:scale-105"
+              >
+                <svg
+                  class="w-8 h-8 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  />
                 </svg>
               </div>
             </div>
@@ -153,7 +235,8 @@
             Our Reputation Management Services
           </h2>
           <p class="text-lg text-gray-600 dark:text-gray-300">
-            Comprehensive solutions to protect and enhance your business reputation
+            Comprehensive solutions to protect and enhance your business
+            reputation
           </p>
         </div>
 
@@ -190,7 +273,8 @@
                 Positive Reviews
               </h3>
               <p class="text-gray-600 dark:text-gray-300 mb-4">
-                Generate authentic positive reviews across Google, Yelp, Facebook, and other major platforms.
+                Generate authentic positive reviews across Google, Yelp,
+                Facebook, and other major platforms.
               </p>
               <div class="flex justify-between items-center">
                 <span class="text-2xl font-bold text-gray-800 dark:text-white"
@@ -238,7 +322,8 @@
                 Reputation Repair
               </h3>
               <p class="text-gray-600 dark:text-gray-300 mb-4">
-                Remove negative reviews and repair damaged online reputation with our proven strategies.
+                Remove negative reviews and repair damaged online reputation
+                with our proven strategies.
               </p>
               <div class="flex justify-between items-center">
                 <span class="text-2xl font-bold text-gray-800 dark:text-white"
@@ -286,7 +371,8 @@
                 Local SEO Services
               </h3>
               <p class="text-gray-600 dark:text-gray-300 mb-4">
-                Optimize your local search presence with Google My Business and local directory management.
+                Optimize your local search presence with Google My Business and
+                local directory management.
               </p>
               <div class="flex justify-between items-center">
                 <span class="text-2xl font-bold text-gray-800 dark:text-white"
@@ -315,76 +401,56 @@
     </section>
 
     <!-- How It Works -->
-    <section class="py-16 bg-white dark:bg-gray-800">
-      <div class="container mx-auto px-4">
-        <div class="text-center mb-12">
-          <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-4">
-            How It Works
+    <section class="py-24 bg-white dark:bg-gray-800 px-6 sm:px-8 lg:px-10">
+      <div class="max-w-5xl mx-auto">
+        <div class="text-center mb-20">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+            How <span class="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">It Works</span>
           </h2>
-          <p class="text-lg text-gray-600 dark:text-gray-300">
-            Simple 3-step process to improve your online reputation
+          <p class="max-w-2xl mx-auto text-xl text-gray-600 dark:text-gray-300">
+            Simple 3-step process to improve your online reputation and build trust with your customers.
           </p>
         </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="text-center">
-            <div class="bg-blue-100 dark:bg-blue-900 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-              <span class="text-2xl font-bold text-blue-600 dark:text-blue-400">1</span>
+        <div class="relative">
+          <!-- The vertical line -->
+          <div class="absolute left-1/2 h-full w-0.5 bg-gray-200 dark:bg-gray-700 hidden lg:block"></div>
+          <!-- Timeline items -->
+          <div v-for="(item, index) in timeline" :key="index" class="timeline-item mb-12 flex lg:justify-between items-center w-full" :class="index % 2 === 0 ? 'lg:flex-row-reverse' : ''">
+            <div class="hidden lg:block w-5/12"></div>
+            <div class="z-10 flex items-center justify-center">
+              <div class="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center shadow-lg">
+                <span class="text-white font-bold text-lg">{{ item.step }}</span>
+              </div>
             </div>
-            <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-4">
-              Submit Your Details
-            </h3>
-            <p class="text-gray-600 dark:text-gray-300">
-              Tell us about your business and the reputation challenges you're facing. We'll create a customized plan.
-            </p>
-          </div>
-
-          <div class="text-center">
-            <div class="bg-blue-100 dark:bg-blue-900 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-              <span class="text-2xl font-bold text-blue-600 dark:text-blue-400">2</span>
+            <div class="bg-gray-50 dark:bg-gray-700 border border-gray-100 dark:border-gray-600 rounded-xl shadow-md p-6 w-full lg:w-5/12">
+              <h3 class="font-bold text-xl mb-3 text-gray-800 dark:text-white">{{ item.title }}</h3>
+              <p class="text-gray-600 dark:text-gray-300">{{ item.description }}</p>
             </div>
-            <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-4">
-              Choose Your Package
-            </h3>
-            <p class="text-gray-600 dark:text-gray-300">
-              Select from our range of reputation management packages designed for businesses of all sizes.
-            </p>
-          </div>
-
-          <div class="text-center">
-            <div class="bg-blue-100 dark:bg-blue-900 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-              <span class="text-2xl font-bold text-blue-600 dark:text-blue-400">3</span>
-            </div>
-            <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-4">
-              We Deliver Results
-            </h3>
-            <p class="text-gray-600 dark:text-gray-300">
-              Our team gets to work immediately. You'll see improvements in your online reputation within 30 days.
-            </p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Newsletter -->
-    <section class="py-16 bg-blue-600 dark:bg-blue-800">
+    <section class="py-16 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900">
       <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl font-bold text-white mb-4">
+        <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-4">
           Stay Updated with Reputation Management Tips
         </h2>
-        <p class="text-blue-100 mb-8 max-w-2xl mx-auto">
-          Subscribe to our newsletter and get the latest reputation management strategies, 
-          industry insights, and success stories directly to your inbox.
+        <p class="text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
+          Subscribe to our newsletter and get the latest reputation management
+          strategies, industry insights, and success stories directly to your
+          inbox.
         </p>
 
         <div class="max-w-md mx-auto flex">
           <input
             type="email"
             placeholder="Your email address"
-            class="flex-grow px-4 py-3 rounded-l-lg focus:outline-none"
+            class="flex-grow px-4 py-3 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-700 border border-gray-300"
           />
           <button
-            class="bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-r-lg font-medium transition-colors"
+            class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-r-lg font-medium transition-all duration-300"
           >
             Subscribe
           </button>
@@ -399,7 +465,28 @@
 
 <script>
 export default {
-  name: "HomePage"
+  name: "HomePage",
+  data() {
+    return {
+      timeline: [
+        {
+          step: "1",
+          title: "Submit Your Details",
+          description: "Tell us about your business and the reputation challenges you're facing. We'll create a customized plan tailored to your specific needs."
+        },
+        {
+          step: "2", 
+          title: "Choose Your Package",
+          description: "Select from our range of reputation management packages designed for businesses of all sizes. We'll recommend the best solution for you."
+        },
+        {
+          step: "3",
+          title: "We Deliver Results",
+          description: "Our team gets to work immediately. You'll see improvements in your online reputation within 30 days with our proven strategies."
+        }
+      ]
+    }
+  }
 };
 </script>
 
