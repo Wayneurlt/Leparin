@@ -17,8 +17,8 @@
             <div class="text-center mb-8">
               <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-4">Basic</h3>
               <div class="mb-4">
-                <span class="text-4xl font-bold text-gray-800 dark:text-white">$299</span>
-                <span class="text-gray-600 dark:text-gray-300">/one-time</span>
+                <span class="text-4xl font-bold text-gray-800 dark:text-white">$20</span>
+                <span class="text-gray-600 dark:text-gray-300">/review</span>
               </div>
               <p class="text-gray-600 dark:text-gray-300">Perfect for small businesses getting started</p>
             </div>
@@ -73,8 +73,8 @@
             <div class="text-center mb-8">
               <h3 class="text-2xl font-bold text-white mb-4">Professional</h3>
               <div class="mb-4">
-                <span class="text-4xl font-bold text-white">$599</span>
-                <span class="text-blue-100">/one-time</span>
+                <span class="text-4xl font-bold text-white">$500</span>
+                <span class="text-blue-100">/removal</span>
               </div>
               <p class="text-blue-100">Comprehensive reputation management</p>
             </div>

@@ -49,7 +49,7 @@
                 </li>
               </ul>
               <div class="flex justify-between items-center">
-                <span class="text-2xl font-bold text-gray-800 dark:text-white">From $299</span>
+                <span class="text-2xl font-bold text-gray-800 dark:text-white">From $20</span>
                 <NuxtLink to="/contact" class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                   Get Started
                 </NuxtLink>
@@ -86,7 +86,7 @@
                 </li>
               </ul>
               <div class="flex justify-between items-center">
-                <span class="text-2xl font-bold text-gray-800 dark:text-white">From $599</span>
+                <span class="text-2xl font-bold text-gray-800 dark:text-white">From $500</span>
                 <NuxtLink to="/contact" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors">
                   Get Started
                 </NuxtLink>

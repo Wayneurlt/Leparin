@@ -278,7 +278,7 @@
               </p>
               <div class="flex justify-between items-center">
                 <span class="text-2xl font-bold text-gray-800 dark:text-white"
-                  >From $299</span
+                  >From $20</span
                 >
                 <NuxtLink
                   to="/services"
@@ -327,7 +327,7 @@
               </p>
               <div class="flex justify-between items-center">
                 <span class="text-2xl font-bold text-gray-800 dark:text-white"
-                  >From $599</span
+                  >From $500</span
                 >
                 <NuxtLink
                   to="/services"
