@@ -55,7 +55,7 @@
               </div>
             </div>
             <p class="text-gray-600 dark:text-gray-300 mb-6 italic">
-              "RepuPro completely transformed our online reputation. We went from having a 2.8-star rating to 4.7 stars in just 3 months. Our business has seen a 40% increase in new customers since working with them."
+              "Obscenda completely transformed our online reputation. We went from having a 2.8-star rating to 4.7 stars in just 3 months. Our business has seen a 40% increase in new customers since working with them."
             </p>
             <div class="flex items-center">
               <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mr-4">
@@ -78,7 +78,7 @@
               </div>
             </div>
             <p class="text-gray-600 dark:text-gray-300 mb-6 italic">
-              "After a competitor left us fake negative reviews, our business was suffering. RepuPro not only helped remove the fake reviews but also built up our positive reputation. We're now ranking higher than ever before."
+              "After a competitor left us fake negative reviews, our business was suffering. Obscenda not only helped remove the fake reviews but also built up our positive reputation. We're now ranking higher than ever before."
             </p>
             <div class="flex items-center">
               <div class="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mr-4">
@@ -101,7 +101,7 @@
               </div>
             </div>
             <p class="text-gray-600 dark:text-gray-300 mb-6 italic">
-              "The team at RepuPro is professional, responsive, and truly cares about their clients' success. They helped us improve our local SEO and get listed on all the right directories. Our phone hasn't stopped ringing!"
+              "The team at Obscenda is professional, responsive, and truly cares about their clients' success. They helped us improve our local SEO and get listed on all the right directories. Our phone hasn't stopped ringing!"
             </p>
             <div class="flex items-center">
               <div class="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mr-4">
@@ -124,7 +124,7 @@
               </div>
             </div>
             <p class="text-gray-600 dark:text-gray-300 mb-6 italic">
-              "We were struggling with negative reviews from a disgruntled former employee. RepuPro helped us address the situation professionally and rebuild our reputation. The results exceeded our expectations."
+              "We were struggling with negative reviews from a disgruntled former employee. Obscenda helped us address the situation professionally and rebuild our reputation. The results exceeded our expectations."
             </p>
             <div class="flex items-center">
               <div class="w-12 h-12 bg-orange-100 dark:bg-orange-900 rounded-full flex items-center justify-center mr-4">
@@ -147,7 +147,7 @@
               </div>
             </div>
             <p class="text-gray-600 dark:text-gray-300 mb-6 italic">
-              "As a small business, we couldn't afford to lose customers due to poor online reviews. RepuPro helped us establish a strong online presence and now we're getting more referrals than ever before."
+              "As a small business, we couldn't afford to lose customers due to poor online reviews. Obscenda helped us establish a strong online presence and now we're getting more referrals than ever before."
             </p>
             <div class="flex items-center">
               <div class="w-12 h-12 bg-red-100 dark:bg-red-900 rounded-full flex items-center justify-center mr-4">
@@ -255,7 +255,7 @@
           Ready to Join Our Success Stories?
         </h2>
         <p class="text-blue-100 mb-8 max-w-2xl mx-auto">
-          Don't let poor online reviews hold your business back. Join hundreds of satisfied clients who have transformed their online reputation with RepuPro.
+          Don't let poor online reviews hold your business back. Join hundreds of satisfied clients who have transformed their online reputation with Obscenda.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <NuxtLink

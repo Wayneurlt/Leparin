@@ -9,14 +9,22 @@
     />
 
     <!-- Services Grid -->
-    <section class="py-16 bg-white dark:bg-gray-800">
-      <div class="container mx-auto px-4">
+    <section class="py-20 bg-white dark:bg-gray-800 relative">
+      <!-- Background Pattern -->
+      <div class="absolute inset-0 opacity-5">
+        <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, rgba(59, 130, 246, 0.3) 1px, transparent 0); background-size: 25px 25px;"></div>
+      </div>
+      
+      <div class="container mx-auto px-6 relative z-10">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Online Reviews Service -->
-          <div class="bg-white dark:bg-gray-700 rounded-xl shadow-lg overflow-hidden border border-gray-200 dark:border-gray-600">
-            <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Online Reviews" class="w-full h-48 object-cover" />
-            <div class="p-6">
-              <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-4">Online Reviews</h3>
+          <div class="group bg-white dark:bg-gray-700 rounded-2xl shadow-lg hover:shadow-2xl overflow-hidden border border-gray-200/50 dark:border-gray-600/50 transition-all duration-300 transform hover:scale-105">
+            <div class="relative overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Online Reviews" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
+            <div class="p-8">
+              <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-4 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Online Reviews</h3>
               <p class="text-gray-600 dark:text-gray-300 mb-6">
                 Generate authentic positive reviews across major platforms including Google, Yelp, Facebook, and more.
               </p>
@@ -42,7 +50,7 @@
               </ul>
               <div class="flex justify-between items-center">
                 <span class="text-2xl font-bold text-gray-800 dark:text-white">From $299</span>
-                <NuxtLink to="/contact" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors">
+                <NuxtLink to="/contact" class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                   Get Started
                 </NuxtLink>
               </div>

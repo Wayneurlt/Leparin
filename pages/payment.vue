@@ -270,7 +270,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center mb-12">
           <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-4">
-            Why Trust RepuPro?
+            Why Trust Obscenda?
           </h2>
         </div>
         

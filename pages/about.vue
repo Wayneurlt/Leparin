@@ -4,7 +4,7 @@
     
     <!-- Hero Section -->
     <HeroSection 
-      title="About RepuPro"
+      title="About Obscenda"
       description="We've been helping businesses protect and enhance their online reputation for over 12 years. Our mission is to build trust and credibility in the digital world."
     />
 
@@ -17,7 +17,7 @@
               Our Story
             </h2>
             <p class="text-lg text-gray-600 dark:text-gray-300 mb-6">
-              Founded in 2012, RepuPro was born from a simple observation: businesses were struggling to manage their online reputation in an increasingly digital world. What started as a small team of reputation management experts has grown into a trusted partner for hundreds of businesses nationwide.
+              Founded in 2012, Obscenda was born from a simple observation: businesses were struggling to manage their online reputation in an increasingly digital world. What started as a small team of reputation management experts has grown into a trusted partner for hundreds of businesses nationwide.
             </p>
             <p class="text-lg text-gray-600 dark:text-gray-300 mb-6">
               We understand that your online reputation is often the first impression potential customers have of your business. That's why we've dedicated ourselves to helping businesses not just manage their reputation, but actively improve it through strategic, ethical, and effective methods.
@@ -29,7 +29,7 @@
           <div>
             <img 
               src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-              alt="RepuPro Team" 
+              alt="Obscenda Team" 
               class="rounded-xl shadow-lg"
             />
           </div>
@@ -42,7 +42,7 @@
       <div class="container mx-auto px-4">
         <div class="text-center mb-12">
           <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-4">
-            Why Trust RepuPro?
+            Why Trust Obscenda?
           </h2>
           <p class="text-lg text-gray-600 dark:text-gray-300">
             Our proven track record and commitment to excellence set us apart
@@ -200,7 +200,7 @@
     <!-- CTA Section -->
     <CTASection 
       title="Ready to Improve Your Online Reputation?"
-      description="Join hundreds of businesses that trust RepuPro to protect and enhance their online presence. Get started today and see the difference professional reputation management can make."
+      description="Join hundreds of businesses that trust Obscenda to protect and enhance their online presence. Get started today and see the difference professional reputation management can make."
       :buttons="[
         { text: 'Get Started Today', path: '/contact', primary: true },
         { text: 'View Our Services', path: '/services', primary: false }

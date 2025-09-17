@@ -28,7 +28,7 @@
                   <span class="text-white font-bold">RP</span>
                 </div>
                 <div>
-                  <div class="font-semibold">RepuPro Team</div>
+                  <div class="font-semibold">Obscenda Team</div>
                   <div class="text-blue-100 text-sm">January 15, 2024 • 8 min read</div>
                 </div>
               </div>
